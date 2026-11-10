@@ -16,7 +16,7 @@ public class Practica5 {
         
         for( int i = 0;i < dadosFalsos.length; i++){
             int dado = danoZoro(dadosFalsos[i]);
-            String estado = (dano == esperados[i]) ? "OK" : "FALLO";
+            String estado = (dado == esperados[i]) ? "OK" : "FALLO";
             System.out.println("Dado falso=" + dadosFalsos[i] + " dado=" + dado + "-> " + estado);
         }
 
