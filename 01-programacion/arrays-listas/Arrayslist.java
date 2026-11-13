@@ -35,7 +35,7 @@ public class Arrayslist {
        // hay que poner integer(castear)
        //numeros.remove((Integer) 89);
        //System.out.println(numeros);
-       List<String> nombres = new ArrayList<>();
+       /*List<String> nombres = new ArrayList<>();
        nombres.add("pepe");
        nombres.add("sofia");
        nombres.add("ramon");
@@ -48,8 +48,8 @@ public class Arrayslist {
         Boolean existeSofia = nombres.contains("sofia")//para mirar si existe sofia te devulve un true o false por eso hay que poner boolean
         System.out.println(existeSofia);
         //Este espera uqe le pongamos el arraylist creado nuestro,directamente nos lo ordena, perdemos el orden inicial
-        Collection.sort(nombres);
-        System.out.println(nombres);
+        //Collection.sort(nombres);
+        System.out.println(nombres);*/
 
 
     }

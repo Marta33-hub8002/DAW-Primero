@@ -24,17 +24,17 @@ public class Practica1 {
     //A partir de aqui ya esta el programa ejecutable
     public static void main(String[] args) {
     //Estos son los valores que vamos a probar.
-        int[] entradas = {-5, 0, 49, 50, 199, 200};
+        int[] entradas = {-5, 0, 49, 50, 199, 200, 256};
     //Estos son los string que devolverá en funcion de la entrada.
-        String[] esperados = {"ERROR", "BARATO", "BARATO","NORMAL","NORMAL","LUJO"};
+        String[] esperados = {"ERROR", "BARATO", "BARATO","NORMAL","NORMAL","LUJO", "LUJO"};
     //Recorre todos los casos de prueba, uno por uno.  
         for (int i = 0; i < entradas.length; i++){
     //Llama a la función con la entrada actual y guarda el resultado.
-            String obtenido = etiquetaPrecio(i);
+            String obtenido = etiquetaPrecio(entradas[i]);
     //Compara lo obtenido con lo esperado:
             String veredicto = obtenido.equals(esperados[i]) ? "OK" : "FALLO";
     //Muestra por pantalla el resultado de este caso.
-            System.out.println("Caso " + (i + 1) + ":entrada=" + entradas[i] + "esperado=" + esperados[i] + "obtenido=" + obtenido + " ->" + veredicto);
+            System.out.println("Caso " + (i + 1) + ":entrada=" + entradas[i] + " esperado=" + esperados[i] + " obtenido=" + obtenido + " ->" + veredicto);
         }
     }
 }

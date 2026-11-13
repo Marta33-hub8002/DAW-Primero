@@ -30,7 +30,7 @@ public class Practica2 {
             System.out.println("[FALLA] " + nombre + " esperado=" + esperado + " obtenido=" + obtenido);
         }     
     }
-//Apartir de aqui ya es el ejecutable.
+
         public static void main(String[] args) {
 //Caso normal: 10+20+30+40 = 100
             comprobar("cuatro ingresos", 100,sumarIngresos(new int[]{10, 20, 30, 40}));
